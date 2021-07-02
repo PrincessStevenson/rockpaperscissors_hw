@@ -4,10 +4,10 @@ body {
     
 }
 
-nav {
+header{
+    background-image: url(static/rockpaperscissors.png);
     display:flex;
     justify-content: space-evenly;
-    background-color: yellow;
 }
 
 nav > ul {

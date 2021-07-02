@@ -13,7 +13,7 @@ from models.game import *
 @app.route('/')
 def base():
     game = Game()
-    return render_template('base.html', title="Shall We Play A Little Game..")
+    return render_template('base.html', title="Let's Scissor")
 
 # @app.route('/')
 # def index():
