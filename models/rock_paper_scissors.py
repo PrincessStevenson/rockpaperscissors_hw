@@ -12,3 +12,6 @@ print(Invite_to_Serg_and_Stephen)
 
 
 Stephen & Serg, please RSVP to confirm attendance 
+
+Stephen = yes I am here!
+
