@@ -2,9 +2,9 @@
 
 Create a simple flask app to allow the user to play [rock, paper, scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors
 ) in their browser. 
-- You should be able to go to `/rock/scissors` and return the string "Player 1 wins by playing rock" to the page, for example.
+- You should be able to go to `/rock/scissors` and return the string "Player 1 wins by playing rock" to the page, for example.√
 
-- Write a class to represent the player. The player will have a name and their choice (rock/paper/scissors).
+- Write a class to represent the player. The player will have a name and their choice (rock/paper/scissors).√
 
 - Write a game class that has a function that takes in the 2 players and compares their choices and returns the winning player. If it is a draw the player should be `None` type.
 

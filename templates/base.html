@@ -1,1 +1,15 @@
-html5
+html:
+<html>
+    <head>
+        <title>{{ title }} Rock Paper Scissors</title>
+    </head>
+    <body>
+        <ul>
+            <li><a href="/game">Home</a></li>
+        </ul>
+        <p>
+        {% block content %}
+
+        {% endblock %} 
+    </body>
+</html>
