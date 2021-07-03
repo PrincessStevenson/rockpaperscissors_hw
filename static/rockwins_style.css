@@ -9,6 +9,12 @@ body {
 header{
         display:flex;
         justify-content: space-evenly;
+        text-align: center;
+}
+
+body > main > h1{
+                text-align: center;
+                
 }
 
 nav > ul {
@@ -31,11 +37,3 @@ footer {
   text-align: center;
 }
 
-
-#rockwins {
-        background-color: deeppink;
-        font-family: 'Yomogi', cursive;
-        color: deeppink;
-        background-image: url('rockwins.png');
-        background-repeat:repeat; 
-}
