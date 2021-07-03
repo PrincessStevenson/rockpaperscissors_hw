@@ -5,6 +5,7 @@ from models.player_list import *
 from models.game import *
 
 
+
 # @app.route('/')
 # def index():
     # return "Shall We Play A Little Game.."
@@ -23,6 +24,9 @@ def base():
 def game1():
     return "Player 1 wins by playing rock!"
 
+@app.route('/play_game')
+def game():
+    return render_template('rockwins.html', title="Play With Me")
 
 @app.route('/<player_1_choice>/<player_2_choice>')
 def mvp(player_1_choice, player_2_choice):
